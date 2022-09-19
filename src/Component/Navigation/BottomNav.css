@@ -1,0 +1,9 @@
+
+
+.BottomNav-container
+{
+display: flex;
+gap: 5em;
+justify-content: center;
+}
+

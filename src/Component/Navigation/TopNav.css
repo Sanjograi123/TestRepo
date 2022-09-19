@@ -1,0 +1,8 @@
+.Search-bar-container
+{
+    display: flex;
+    gap: 2em;
+ justify-items: flex-end;
+
+
+}
