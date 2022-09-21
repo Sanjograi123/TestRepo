@@ -1,39 +1,17 @@
 import React from "react";
 import BottomNavigation from "./BottomNavigation";
+import { NavData } from "../../Static-Data/NavData";
 import './TopNav.css';
 
 const TopNavigation=() =>{
-  const NavData=[
-    {
-      label:"Home",
-      url:"/",
-    },
-    
-    
-    {
-      label:"Business",
-      url:"/business",
-    },
-    
-    {
-      label:"Politics",
-      url:"/politics",
-    },
-    
-    {
-      label:"Health",
-      url:"/health",
-    },
-    
-      ]
-  return (
+   return (
   
   <>
 <nav >
   <div className="TopNav-Container">
   < div className="Navigation-Container">
     <div className="logo-Container">
-      <img src="" className="mylogo"/>
+      <img src="" className="mylogo" alt=""/>
     </div>
 <div className="Search-bar-container">
  <div className="input-field">
@@ -45,10 +23,14 @@ const TopNavigation=() =>{
 </div>
 
 </div>
-</div>
 <div className="bottom-nav-bar">
   <BottomNavigation NavData={NavData}/>
 </div>
+
+</div>
+
+
+
 </nav>
   
   

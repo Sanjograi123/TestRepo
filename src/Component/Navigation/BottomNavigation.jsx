@@ -5,10 +5,12 @@ import './BottomNav.css'
 function BottomNavigation({NavData}) {
   return (
     <>
+  
+
      <div className="main-container">
       <div className="BottomNav-container">
         {NavData.map((each,index)=>(
-          <NavLink className={"navlinkClass"} to ={each.url}>
+          <NavLink className={"navlinkClass"} to ={each.url} >
             {each.label}
           </NavLink>
 
