@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from '../../Component/Carousel/Carousel'
 import { CarouselData } from '../../DummyData/DummyData'
-
+import './home.css'
 
 const Home=()=> {
   return (
