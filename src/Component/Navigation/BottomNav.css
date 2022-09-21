@@ -1,9 +1,11 @@
 
-
 .BottomNav-container
 {
 display: flex;
-gap: 5em;
+gap: 10em;
 justify-content: center;
+position: relative;
 }
-
+.navlinkClass{
+    text-decoration: none;
+}

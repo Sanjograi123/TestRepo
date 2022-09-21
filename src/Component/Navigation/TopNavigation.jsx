@@ -1,6 +1,9 @@
 import React from "react";
 import BottomNavigation from "./BottomNavigation";
 import { NavData } from "../../Static-Data/NavData";
+
+import { FaSistrix } from "react-icons/fa";
+
 import './TopNav.css';
 
 const TopNavigation=() =>{
@@ -18,15 +21,15 @@ const TopNavigation=() =>{
  <input type={'text'} placeholder={'Search....'} className="Search"/>
   </div> 
   <div className="search-btn">
-    <button>search</button>
+    <button className="btn-search"><FaSistrix/></button>
   </div>
+</div>
+
 </div>
 
 </div>
 <div className="bottom-nav-bar">
   <BottomNavigation NavData={NavData}/>
-</div>
-
 </div>
 
 

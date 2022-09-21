@@ -3,6 +3,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import './Carousel.css';
 const Carousel=({DataFromCarousel=[]}) =>{
 
   const settings = {
@@ -19,23 +20,26 @@ const Carousel=({DataFromCarousel=[]}) =>{
     <>
     <Slider {...settings}>
       {DataFromCarousel.map((each, index)  => (
-        <div className="maincontainer">
-          <div className="innercontainer">
-            <div className="details">
-              {/* <h1>{each.name}</h1> */}
+        <div className="mainContainer" key={index}>
+          <div className="innerContainer">
+            <div className="Details">
+              
               <figure>
                 <img
                   src={each.image}
-                  className="imagefromCarousel"
+                  className="imageFromCarousel"
                   alt="image1"
                 />
               </figure>
+              <div className='titleAndDescriptionContainer'>
               <div className="title">
                 <h3>{each?.title}</h3>
               </div>
               <div className="DescriptionContainer">
                 <p>{each?.description}</p>
               </div>
+              </div>
+              
             </div>
           </div>
         </div>

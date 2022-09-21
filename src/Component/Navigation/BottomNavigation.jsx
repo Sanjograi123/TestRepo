@@ -10,7 +10,7 @@ function BottomNavigation({NavData}) {
      <div className="main-container">
       <div className="BottomNav-container">
         {NavData.map((each,index)=>(
-          <NavLink className={"navlinkClass"} to ={each.url} >
+          <NavLink className={"navlinkClass"} to ={each.url} key={index}>
             {each.label}
           </NavLink>
 

@@ -1,8 +1,15 @@
 .Search-bar-container
 {
-    display: flex;
-    gap: 2em;
- justify-items: flex-end;
+   display: flex;
+   justify-content: end;
+    margin-right: 5em;
+    font-size: 3em;
+    padding: 1em;
+}
+.btn-search{
+border-radius: 0.3m;
+padding:o.1em;
+
 
 
 }

@@ -1,0 +1,17 @@
+/* .mainContainer{
+    display: flex;
+} */
+.Details{
+    display:flex;
+    column-gap: 1em;
+    padding: 1em;
+    text-align: justify;
+}
+
+
+.imageFromCarousel{
+    width:35em;
+    height:25em;
+
+}
+
