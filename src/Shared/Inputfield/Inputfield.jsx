@@ -7,7 +7,8 @@ const Inputfield = (inputType,placeholder) => {
     <div  className='inputContainer'>
 
         <div className='mainContainer'>
-        <input type={inputType} placeholder={placeholder}/>
+        <input type={inputType}
+         placeholder={placeholder}/>
 
 
         </div>

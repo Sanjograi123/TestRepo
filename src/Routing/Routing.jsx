@@ -9,20 +9,26 @@ import Health from '../Pages/Health/Health'
 
 function Routing() {
   return (
-    <>   
+    <> 
+    <h2>Merenda</h2> 
     <TopNavigation/>
+  
     <Routes>
+
       <Route path="/" element={<Home/>} />
       <Route path="/politics" element={<Politics/>}/>
       <Route path='/business' element={<Business/>}/>
       < Route path='/health' element={<Health/>}/>
-<Route path='/contact' element={<Contact/>}/>
-      
-      
+<Route path='/contact' element={<Contact/>}/> 
+      {/* {NavData.map((each,index)=>(
+        <Route path={each.url} element={each.label} />
+        
+        ))}
+       */}
     </Routes>
     </>
 
   )
 }
 
-export default Routing
+export default Routing;

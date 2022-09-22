@@ -1,0 +1,14 @@
+.EditorsPickAndTrending-main-container{
+    display: flex;
+    justify-content:relative;
+    column-gap: 30em;
+    
+}
+ .EditorsPick-main-container{
+    display: flex;
+    gap: 10em;
+    margin-left: 3.2em;
+}
+/* .EditorsPickAndTrending-container{
+    gap: 4em;
+} */ 
