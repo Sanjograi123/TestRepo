@@ -1,6 +1,7 @@
 
 import image1 from '../Assests/image1.jpg';
 import image2 from '../Assests/image2.jpg';
+
 const CarouselData=[
     {
         image:image1,
@@ -22,4 +23,5 @@ const CarouselData=[
     
 
 ]
+
 export {CarouselData};
