@@ -1,21 +1,25 @@
 
-.politics-and-business-main-container{
-     
-    padding: 5em;
+.politics-and-business-main-containers{
+     display: flex;
+     padding: 5em;
+     gap: 5em;
+     justify-content: center;
     
 }
-.politics-data-container{
-    display:flex;
-    flex-direction: column;
-   text-align: justify;
-   width: 50%;
-
+.description-section{
+    width: 39em;
 }
+
 
 .politics-image{
     width: 10em;
     height: 8em;
 }
-.politics-and-business-container{
+.politics-data-containers{
     display: flex;
+    align-items: center;
+}
+.politics-containers{
+    display: flex;
+    flex-direction: column;
 }

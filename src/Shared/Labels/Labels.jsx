@@ -1,16 +1,17 @@
-import React from 'react'
-
-const Labels = (label) => {
+import React from "react";
+import "./labels.css";
+const Labels = ({ labelName="enter your label here" }) => {
   return (
-    
-    <div className='label-for-post'>
-        <label>label={label}</label>
-        
+    <>
+     <div className="label-for-post">
       
- 
+      <label>{labelName}</label>
+
     </div>
-  )
+    
+    </>
+   
+  );
+};
 
-}
-
-export default Labels
+export default Labels;
