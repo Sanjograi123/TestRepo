@@ -1,7 +1,8 @@
 import React from 'react'
 import Carousel from '../../Component/Carousel/Carousel'
 import EditorsPickAndTrending from '../../Component/EditorsPickAndTrending/EditorsPickAndTrending';
-import { CarouselData } from '../../DummyData/DummyData'
+import PoliticsAndBusiness from '../../Component/PoliticsAndBusiness/PoliticsAndBusiness'
+import { CarouselData, PoliticsData } from '../../DummyData/DummyData'
 import './Home.css';
 
 const Home=()=> {
@@ -11,10 +12,16 @@ const Home=()=> {
       <div className='main-container'>
         <div className='post-container'>
         <Carousel DataFromCarousel={CarouselData}/>
-        <EditorsPickAndTrending/>
+        
+        {/* <EditorsPickAndTrending EditorsPickData={EditorsPickData} /> */}
+        </div>
+        <div className="politics-and-business-container">
+      
+<PoliticsAndBusiness PoliticsData={PoliticsData}/>
+        </div>
         </div>
       </div>
-    </div>
+   
     
     </>
     

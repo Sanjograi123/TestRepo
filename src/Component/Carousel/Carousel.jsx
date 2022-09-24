@@ -32,7 +32,7 @@ const Carousel=({DataFromCarousel=[]}) =>{
                 />
               </figure>
               <div className='titleAndDescriptionContainer'>
-              <div className="title">
+              <div className="TitleCcontainer">
                 <h3>{each?.title}</h3>
               </div>
               <div className="DescriptionContainer">
