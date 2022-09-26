@@ -1,42 +1,21 @@
 import React from 'react';
+import Labels from '../../Shared/Labels/Labels';
+import { PoliticsData,TrendingData } from '../../DummyData/DummyData';
+import Dataforpolitics from '../../Shared/PoliticsData/Dataforpolitics';
 import './PoliticsAndBusiness.css'
+import Datafortrending from '../../Shared/TrendingData/Datafortrending';
 
-const PoliticsAndBusiness = ({PoliticsData}) => {
+const PoliticsAndBusiness = () => {
   return (
-    <>
-    <div className='politics-and-business-container'>
+
+      <div className='politics-and-business-container'>
     <div className='politics-and-business-main-container'>
-        {PoliticsData.map((each,index)=>(
-           
-                <div className='politics-data-container'>
-                    <figure>
-                        <img src={each.img} className="politics-image" alt='politics-image'/>
-
-                    </figure>
-                    <div className='title-description-container'>
-                        <div className='title-section'>
-                            <h4>{each.title}</h4>
-                        </div>
-                        <div className='description-section'>
-                            <p>{each.description}</p>
-                        </div>
-                    </div>
-
-
-
-                </div>
-                
-                
-             
-        ))}
-        <div className='trending-container'>
-            <label>Trending</label>
-        </div>
+        <Dataforpolitics PoliticsData={PoliticsData}/>
+       <Datafortrending TrendingData={TrendingData}/>
     </div>
     </div>
     
     
-    </>
           
   )
 }

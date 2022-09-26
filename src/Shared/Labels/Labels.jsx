@@ -1,14 +1,12 @@
-import React from 'react'
+import React from "react"
+import './label.css'
 
-const Labels = (label) => {
+const Labels = ({labelName="Enter your label here"}) => {
   return (
-    
-    <div className='label-for-post'>
-        <label>label={label}</label>
-        
-      
- 
+    <div className="label-for-post">
+        <h4>{labelName}</h4>
     </div>
+   
   )
 
 }

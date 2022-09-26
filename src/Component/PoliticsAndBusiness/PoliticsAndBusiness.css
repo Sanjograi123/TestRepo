@@ -1,21 +1,47 @@
 
 .politics-and-business-main-container{
-     
-    padding: 5em;
+    display: flex;
+     padding: 5em;
+     gap: 5em;
+     justify-content: center;
     
 }
-.politics-data-container{
+.politics-container{
+    padding: 2em;
     display:flex;
     flex-direction: column;
    text-align: justify;
    width: 50%;
 
 }
-
-.politics-image{
-    width: 10em;
-    height: 8em;
-}
-.politics-and-business-container{
+.politics-data-container{
     display: flex;
+    padding:0.5m;
+    align-items: center;
+    margin:1px;
+}
+.politics-image{
+    width:10em;
+    height:8em;
+}
+.description-section{
+    width:35em
+}
+.trending-container{
+    padding:2em;
+    text-align: justify;
+}
+ .trending-main-container{
+    padding: 0.5em;
+    margin: 1px;
+    
+} 
+.trending-list-title-container{
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    column-gap: 2em;
+    
+
+
 }
