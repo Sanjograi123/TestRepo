@@ -1,24 +1,28 @@
-.EditorsPickAndTrending-main-container{
+.editor-pick-and-trending-main-cntainer{
     display: flex;
-    justify-content:relative;
-    column-gap: 10em;
+  justify-content: center;
+    padding: 1em;
+  
+}
+.editor-main-container{
+    display: flex;
+    
+   align-items: center;
     
 }
- .EditorsPick-main-container{
-    display: flex;
-    gap: 2em;
-    
+.editor-left{
+justify-items: center;
 }
- .EditorsPickAndTrending-container{
-    display: flex;
-    margin-top: 5em;
-}  
-.EditorsPick-right-details-container{
-    display: flex;
-    align-items: center;
+.editor-pic{
+  height: 10em;
+  width: 10em;
+}
 
+.title-and-description-container{
+  width:30em;
+  text-align: justify;
 }
-.image-from-props{
-    width: 10em;
-    height: 6em;
+.figure-title-container{
+  display: flex;
+  width:30em;
 }

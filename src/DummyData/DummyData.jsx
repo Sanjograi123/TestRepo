@@ -22,6 +22,7 @@ const CarouselData=[
     
 
 ]
+//Editors
 const EditorsPickData=[
     {
         img:image1,
@@ -66,7 +67,7 @@ const PoliticsData=[
 
     },
 ]
-    const TrendingData=[
+    const BusinessData=[
 
         {
             img:image1,
@@ -88,4 +89,4 @@ const PoliticsData=[
         },
     ]
 
-export {CarouselData,EditorsPickData,PoliticsData,TrendingData};
+export {CarouselData,EditorsPickData,PoliticsData,BusinessData};
