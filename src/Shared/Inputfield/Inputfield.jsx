@@ -1,6 +1,7 @@
 import React from 'react'
+import './Inputfield.css';
 
-const Inputfield = (inputType,placeholder) => {
+const Inputfield = ({inputType,setplaceholder}) => {
   return (
     <>
     
@@ -8,7 +9,7 @@ const Inputfield = (inputType,placeholder) => {
 
         <div className='mainContainer'>
         <input type={inputType}
-         placeholder={placeholder}/>
+         placeholder={setplaceholder} className="input-field"/>
 
 
         </div>

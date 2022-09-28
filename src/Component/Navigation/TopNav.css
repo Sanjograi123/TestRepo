@@ -1,15 +1,9 @@
-.Search-bar-container
-{
+.Navigation-container{
+   display: flex;
+}
+
+.input-field-search-btn-container{
    display: flex;
    justify-content:flex-end;
-    margin-right: 5em;
-    font-size: 3em;
-    padding:0.3em;
-}
-.btn-search{
-border-radius: 0.3m;
-padding:o.1em;
-
-
-
+   margin-right: 1em;
 }
