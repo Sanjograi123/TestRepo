@@ -46,6 +46,27 @@ const EditorsPickData=[
         
 
 ]
+const TrendingData=[
+
+    {
+        img:image1,
+        title:"News Needs To Meet Its Audiences Where They Are",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eius assumenda  ut porro iusto, quaerat error sequi consectetur veritatis magnam iure quia, autem quis at reiciendis qui! Perferendis, eveniet eum.",
+
+    },
+    {
+        img:image1,
+        title:"News Needs To Meet Its Audiences Where They Are",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eius assumenda  ut porro iusto, quaerat error sequi consectetur veritatis magnam iure quia, autem quis at reiciendis qui! Perferendis, eveniet eum.",
+
+    },
+    {
+        img:image1,
+        title:"News Needs To Meet Its Audiences Where They Are",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eius assumenda  ut porro iusto, quaerat error sequi consectetur veritatis magnam iure quia, autem quis at reiciendis qui! Perferendis, eveniet eum.",
+
+    },
+]
 const PoliticsData=[
     {
         img:image1,
@@ -66,26 +87,27 @@ const PoliticsData=[
 
     },
 ]
-    const TrendingData=[
+const BusinessData=[
 
-        {
-            img:image1,
-            title:"News Needs To Meet Its Audiences Where They Are",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eius assumenda  ut porro iusto, quaerat error sequi consectetur veritatis magnam iure quia, autem quis at reiciendis qui! Perferendis, eveniet eum.",
-    
-        },
-        {
-            img:image1,
-            title:"News Needs To Meet Its Audiences Where They Are",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eius assumenda  ut porro iusto, quaerat error sequi consectetur veritatis magnam iure quia, autem quis at reiciendis qui! Perferendis, eveniet eum.",
-    
-        },
-        {
-            img:image1,
-            title:"News Needs To Meet Its Audiences Where They Are",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eius assumenda  ut porro iusto, quaerat error sequi consectetur veritatis magnam iure quia, autem quis at reiciendis qui! Perferendis, eveniet eum.",
-    
-        },
-    ]
+    {
+        img:image1,
+        title:"News Needs To Meet Its Audiences Where They Are",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eius assumenda  ut porro iusto, quaerat error sequi consectetur veritatis magnam iure quia, autem quis at reiciendis qui! Perferendis, eveniet eum.",
 
-export {CarouselData,EditorsPickData,PoliticsData,TrendingData};
+    },
+    {
+        img:image1,
+        title:"News Needs To Meet Its Audiences Where They Are",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eius assumenda  ut porro iusto, quaerat error sequi consectetur veritatis magnam iure quia, autem quis at reiciendis qui! Perferendis, eveniet eum.",
+
+    },
+    {
+        img:image1,
+        title:"News Needs To Meet Its Audiences Where They Are",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eius assumenda  ut porro iusto, quaerat error sequi consectetur veritatis magnam iure quia, autem quis at reiciendis qui! Perferendis, eveniet eum.",
+
+    },
+]
+   
+
+export {CarouselData,EditorsPickData,PoliticsData,TrendingData,BusinessData};

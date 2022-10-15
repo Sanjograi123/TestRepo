@@ -1,18 +1,18 @@
 import React from 'react'
 import Labels from '../Labels/Labels'
 
-const Datafortrending = ({TrendingData}) => {
+const Dataforbusiness = ({BusinessData}) => {
   return (
    
-    <div className='trending-container'>
-    <Labels labelName='Trending'/>
+    <div className='business-container'>
+    <Labels labelName='Business'/>
     <div className='trending-main-container'>
-        {TrendingData.map((each,index)=>(
+        {BusinessData.map((each,index)=>(
           <div className='trending-list-title-container'>
                 
             <><div className='list-container'>
 
-                {TrendingData.indexOf(each)}
+                {BusinessData.indexOf(each)}
 
             </div>
             <div className='Trending-title-container'>
@@ -29,4 +29,4 @@ const Datafortrending = ({TrendingData}) => {
   )
 }
 
-export default Datafortrending
+export default Dataforbusiness

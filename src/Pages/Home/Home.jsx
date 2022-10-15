@@ -14,14 +14,15 @@ const Home=()=> {
         <Carousel DataFromCarousel={CarouselData}/>
         
          <EditorsPickAndTrending EditorsPickData={EditorsPickData} />
+         <PoliticsAndBusiness/>
         </div>
-        <div className="politics-and-business-container">
+       
     
-<PoliticsAndBusiness/>
+
 
         </div>
         </div>
-      </div>
+      
    
     
     </>

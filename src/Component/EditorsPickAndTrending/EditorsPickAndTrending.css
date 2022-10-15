@@ -1,3 +1,38 @@
 .editor-pick-and-trending-container{
+    display:flex;
+    padding-top: 3em;
+    
+    
+}
+.editor-pick-container{
     display: flex;
+    gap: 2em;
+    width: 50%;
+    
+}
+.editor-pic{
+    height: 8em;
+    width: 10em;
+}
+.editors-pic{
+    width: 15em;
+    height: 15em;
+}
+
+
+
+.editor-title-description-container{
+    text-align: left;
+    align-items: center;
+    
+}
+
+
+.figure-title-container-right{
+    display: flex;
+
+}
+.title-container-right{
+    text-align: center;
+    width: 40%;
 }

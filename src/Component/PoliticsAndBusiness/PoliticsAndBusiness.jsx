@@ -1,9 +1,11 @@
 import React from 'react';
-import Labels from '../../Shared/Labels/Labels';
-import { PoliticsData,TrendingData } from '../../DummyData/DummyData';
+
+import { PoliticsData,BusinessData } from '../../DummyData/DummyData';
 import Dataforpolitics from '../../Shared/PoliticsData/Dataforpolitics';
+import Dataforbusiness from '../../Shared/BusinessData/Dataforbusiness';
 import './PoliticsAndBusiness.css'
-import Datafortrending from '../../Shared/TrendingData/Datafortrending';
+
+
 
 const PoliticsAndBusiness = () => {
   return (
@@ -11,7 +13,7 @@ const PoliticsAndBusiness = () => {
       <div className='politics-and-business-container'>
     <div className='politics-and-business-main-container'>
         <Dataforpolitics PoliticsData={PoliticsData}/>
-       <Datafortrending TrendingData={TrendingData}/>
+       <Dataforbusiness BusinessData={BusinessData}/>
     </div>
     </div>
     
