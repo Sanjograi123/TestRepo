@@ -7,74 +7,54 @@ const EditorsPickAndTrending = ({EditorsPickData}) => {
   
  
   return (
-  <div className='editor-pick-and-trending-container'>
-
-
-<div className="editor-pick-and-trending-main-container">
-<Labels labelName="Editor's Pick"/>
-      <div className='editor-pick-container'>
-        {datas.map((each,index)=>(
-        <div className='editor-pick-left'>
-          
-            <><div className='figure-container'>
-              <figure>
-                <img src={each.img} className='editors-pic' alt='editors-pic'></img>
-
-              </figure>
-
-            </div>
-            <div className='editor-title-description-container'>
-            <div className='editor-title-container'>
-             <h4>{each.title}</h4> 
-             </div>
-             <div className='editor-description-container'>
-              <p>{each.description}</p>
-              </div>
-
+    <>   <div className='outer-container'>
+    <div className='editor-pick-and-trending-container'>
+      <div className='editor-pick-and-trending-main-container'>
+        <div className='editor-pick-container'>
+          <div className='gggg'><Labels labelName="Editor's Pick"/></div>
+          <div className='editor-pick-main-container'>
+            <div className='editor-left-cobtainer'>
+              {datas.map((each,index)=>(
+                <div className='editor-left-figure'>
+                  <figure>
+                    <img src={each.img} className="editor-pic"/>
+                  </figure>
+                  <div className='editor-left-title-description-container'>
+                    <div className='editor-left-title'>
+                      <h4>{each.title}</h4>
+                    </div>
+                    <div className='editor-left-description-container'>
+                      <p>{each.description}</p>
+                    </div>
+                  </div>
+                  </div>
+              ))}
 
             </div>
             
-              </>
-              </div>
-
-          ))}
-          
-
-        
-        <div className='editor-pick-right'>
-        {EditorsPickData.map((each,index)=>(
-          <div className='figure-title-container-right'>
-              <div className='figure-right'>
-                <figure>
-                  <img src={each.img} className='editor-pic' alt='editor-pic'></img>
-                </figure>
-              </div>
-              <div className='title-container-right'>
-                <h4>{each.title}</h4>
-              </div>
-
+            <div className='editor-pick-right-container'>
+              {EditorsPickData.map((each,index)=>(
+                <><div className='editir-pick-right-figure'>
+                  <figure>
+                    <img src={each.img} className='editor-pic'></img>
+                  </figure>
+                </div>
+                <div className='editor-right-title-description-container'>
+                  <div className='editor-right-title'>
+                    <h4>{each.title}</h4>
+                  </div>
+                  <div className='editor-right-description-container'>
+                    <p>{each.description}</p>
+                  </div>
+                  </div>
+                  </>
+              ))}
+            </div>
           </div>
-          
-
-            ))}
-           
-          
         </div>
-
       </div>
-
-      
-
-</div>
-
-
-
-<div className='trending-container'>
-<Labels labelName='Trending'/>
-
-  <p>Its me trending</p>
-</div>
-  </div>
+    </div>
+   </div></>
   )
 };
 
