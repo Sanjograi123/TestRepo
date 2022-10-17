@@ -1,3 +1,35 @@
-.editor-pick-main-container{
+
+.editor-pick-and-trending-main-container{
     display: flex;
+    gap: 3em;
+    margin-top: 3em;
+    
+}
+.editor-pick-main-container{
+    display:flex;
+  text-align: justify;
+    
+}
+.editor-pick-left-main-container{
+    align-items: center;
+}
+
+.editor-pics{
+    
+width:7em;
+height: 5em;
+}
+.editor-pic{
+    width: 20em;
+    height: 10em;
+}
+.editor-pick-right-main-container{
+    display: flex;
+    align-items:stretch;
+}
+.editor-left-title-description-container{
+    width: 25em;
+}
+.editor-right-title-description-container{
+    width:17em;
 }
