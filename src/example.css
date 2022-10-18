@@ -1,0 +1,12 @@
+
+
+.flex-main-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.flex-container{
+    margin: 0 auto;
+    width: 20%;
+}
