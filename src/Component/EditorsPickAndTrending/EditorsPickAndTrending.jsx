@@ -59,7 +59,7 @@ const EditorsPickAndTrending = ({EditorsPickData,TrendingData}) => {
           </div>
         </div>
        
-        <div className='trending-container'>
+        <div className='trending-editor-container'>
         <div className=''><Labels labelName='Trending'/></div>
           {TrendingData.map((each,index)=>(
             <div className='trending-title-container'>

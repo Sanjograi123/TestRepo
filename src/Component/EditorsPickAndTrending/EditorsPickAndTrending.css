@@ -25,7 +25,7 @@ height: 5em;
 }
 .editor-pick-right-main-container{
     display: flex;
-    align-items:stretch;
+    align-items:center;
 }
 .editor-left-title-description-container{
     width: 25em;
