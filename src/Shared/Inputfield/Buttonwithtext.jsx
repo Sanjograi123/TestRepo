@@ -1,6 +1,6 @@
 import React from 'react'
 import './Buttonwithtext.css';
-const Buttonwithtext = ({buttonType,buttonText}) => {
+const Buttonwithtext = ({buttonType,buttonText,classname}) => {
   return (
     <div className='btn-with-text-container'>
       <button className='btn-with-text' type={buttonType}>{buttonText}</button>

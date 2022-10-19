@@ -30,7 +30,7 @@ function Contact() {
               </div>
               <div className='message-button-container'>
                 <div className='message-container'>
-                  <Inputwithlabel labelname={"Message"} inputType={'text'} placeHolder="" className='message-container' styles={{fontSize:'20em'}}/>
+                  <Inputwithlabel labelname={"Message"} inputType={'text'} placeHolder="" classname={'input-with-label-large'}/>
                 </div>
                 <div className='button-container'>
                   <Buttonwithtext buttonType={"submit"} buttonText={"Send Message"}/>

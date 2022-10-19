@@ -1,6 +1,19 @@
-.input-with-label{
+.input-with-label-small{
     padding:1em;
     font-size: 1em;
-    width: 35em;
+    width: 20em;
+   border-radius: 2.5em;
+}
+.input-with-label-medium{
+    padding:1em;
+    font-size: 1em;
+    width: 25em;
+   border-radius: 2.5em;
+}
+.input-with-label-large{
+    padding: 1em;
+    font-size: 1em;
+    width: 45em;
+    
    border-radius: 2.5em;
 }
