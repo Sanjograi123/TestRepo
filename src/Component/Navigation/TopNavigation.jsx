@@ -8,35 +8,40 @@ import './TopNav.css';
 import Inputfield from "../../Shared/Inputfield/Inputfield";
 import ButtonWithIcon from "../../Shared/Inputfield/ButtonWithicon";
 
-const TopNavigation=() =>{
-   return (
-  
-  <>
-<nav >
-  <div className="TopNav-Container">
-      <div className="logo-Container">
-      <h2>Meranda</h2>
-      <img src="" className="mylogo" alt=""/>
-      <div className="input-field-search-btn-container">
-        
-              <Inputfield inputType={'text'} setplaceholder="Search...."/>
-              
-                <ButtonWithIcon icon={<FaSistrix fontSize={"large"}/>} />
-  
-                  </div> 
+const TopNavigation = () => {
+  return (
 
-                  </div>
-                  </div>
-            <div className="bottom-nav-bar">
-              <BottomNavigation NavData={NavData}/>
-            </div>
+    <>
+
+      <div className="TopNav-Container">
+        <div className="TopNav-Main-Container">
+          <div className="logo-container">
+            <h2 className="logo">Meranda</h2>
+          </div>
+          <div className="input-field-search-btn-container">
+            <Inputfield
+              inputType={'text'}
+              setplaceholder="Search...." />
+            <ButtonWithIcon
+              icon={<FaSistrix fontSize={"large"} />} />
+          </div>
 
 
 
-</nav>
-  
-  
-  </>
+        </div>
+      </div>
+
+       <div className="bottom-nav-bar">
+
+          <BottomNavigation NavData={NavData} />
+        </div> 
+
+
+
+
+
+
+    </>
 
 
   )

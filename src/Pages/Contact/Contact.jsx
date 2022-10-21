@@ -1,48 +1,59 @@
-import React from 'react'
-import Buttonwithtext from '../../Shared/Inputfield/Buttonwithtext'
-import Inputwithlabel from '../../Shared/Inputfield/Inputwithlabel'
-import Labels from '../../Shared/Labels/Labels'
-import './Contact.css'
+import React from "react";
+import Messageinputfield from "../../Component/ContactForm/Messageinputfield";
+import Buttonwithtext from "../../Shared/Inputfield/Buttonwithtext";
+import Inputwithlabel from "../../Shared/Inputfield/Inputwithlabel";
+import Labels from "../../Shared/Labels/Labels";
+import "./Contact.css";
 function Contact() {
   return (
-    <div className='contact-form-container'>
-      <div className='contact-us'>
-      <Labels labelName='Contact-US'/>
+    <div className="contact-form-container">
+      <div className="contact-us">
+        <Labels labelName="Contact-US" />
       </div>
-      <div className='contact-form-main-container'>
-        <div className='fname-lname-container'>
-
-              <div className='first-name-container'>
-              
-              <Inputwithlabel labelname ={"First Name"} inputType={'text'} placeHolder={"First Name"}/>
-              </div>
-              <div className='last-name-container'>
-              <Inputwithlabel labelname={"Last Name"} inputType={'text'} placeHolder={"Last Name"}/>
-            </div>
+      <div className="contact-form-main-container">
+        <div className="fname-lname-container">
+          <div className="first-name-container">
+            <Inputwithlabel
+              labelname={"First Name"}
+              inputType={"text"}
+              placeHolder={"First Name"}
+            />
+          </div>
+          <div className="last-name-container">
+            <Inputwithlabel
+              labelname={"Last Name"}
+              inputType={"text"}
+              placeHolder={"Last Name"}
+            />
+          </div>
         </div>
-              <div className='email-tel-container'>
-              <div className='email-container'>
-              <Inputwithlabel labelname={"E-mail"} inputType={'email'} placeHolder={"Email address here!!"}/>
-            </div>
-            <div className='tel-container'>
-              <Inputwithlabel labelname={"Tel.no"} inputType={'tel'} placeHolder={""}/>
-            </div>
-              </div>
-              <div className='message-button-container'>
-                <div className='message-container'>
-                  <Inputwithlabel labelname={"Message"} inputType={'text'} placeHolder="" classname={'input-with-label-large'}/>
-                </div>
-                <div className='button-container'>
-                  <Buttonwithtext buttonType={"submit"} buttonText={"Send Message"}/>
-                </div>
-              
-              </div>
-        
+        <div className="email-tel-container">
+          <div className="email-container">
+            <Inputwithlabel
+              labelname={"E-mail"}
+              inputType={"email"}
+              placeHolder={"Email address here!!"}
+            />
+          </div>
+          <div className="tel-container">
+            <Inputwithlabel
+              labelname={"Tel.no"}
+              inputType={"tel"}
+              placeHolder={""}
+            />
+          </div>
+        </div>
+        <div className="message-button-container">
+          <div className="message-container">
+           <Messageinputfield labelname={'Message'}/>
+          </div>
+          <div className="button-container">
+            <Buttonwithtext buttonType={"submit"} buttonText={"Send Message"} />
+          </div>
+        </div>
       </div>
-        
-
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
